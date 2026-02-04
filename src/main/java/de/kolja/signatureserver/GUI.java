@@ -9,8 +9,8 @@ public class GUI {
 
     public void start(Stage stage) {
 
-        Label statusLabel = new Label("Signature Server läuft.\nWarte auf Unterschrift...");
-        statusLabel.setStyle("-fx-font-size: 16px;");
+        Label statusLabel = new Label("Signature Server läuft.\nWarten auf Unterschrift...");
+        statusLabel.setStyle("-fx-font-size: 24px;");
 
         BorderPane root = new BorderPane();
         root.setCenter(statusLabel);
